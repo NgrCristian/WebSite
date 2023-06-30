@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Entre em Contato</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        
+        header {
+            background-color: #333;
+            padding: 10px;
+        }
+        
+        header a {
+            color: #fff;
+            text-decoration: none;
+        }
+        
+        main {
+            padding: 20px;
+        }
+        
+        h1 {
+            color: #333;
+        }
+        
+        form {
+            margin-top: 20px;
+        }
+        
+        label {
+            display: block;
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+        
+        input,
+        select,
+        textarea {
+            width: 100%;
+            padding: 8px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            margin-bottom: 10px;
+        }
+        
+        textarea {
+            resize: vertical;
+        }
+        
+        button {
+            background-color: #333;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+            margin-right: 10px;
+        }
+        
+        hr {
+            margin-top: 40px;
+        }
+        
+        footer {
+            padding: 20px;
+            text-align: center;
+            background-color: #f1f1f1;
+        }
+        
+        footer a {
+            margin-right: 10px;
+            text-decoration: none;
+            color: #333;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <a href="index.html">Pagina Inicial</a>
+    </header>
+
+    <main>
+        <h1>Contato</h1>
+        <form>
+            <label for="nome">Nome:</label><br>
+            <input type="text" name="Nome" placeholder="Digite Seu Nome" required><br><br>
+            
+            <label for="email">E-mail:</label><br>
+            <input type="email" name="Email" placeholder="Digite Seu E-mail" required><br><br>
+            
+            <label for="assunto">Assunto:</label><br>
+            <select name="assunto" required>
+                <option value="selecione" selected disabled> Selecione o Assunto...</option>
+                <option value="reclamação">Reclamações</option>
+                <option value="duvida">Dúvidas</option>
+                <option value="sugestão">Sugestões</option>
+                <option value="outros">Outros</option>
+            </select><br><br>
+            
+            <label for="mensagem">Mensagem:</label><br>
+            <textarea cols="30" rows="5" placeholder="Digite aqui... máximo de 400 caracteres" maxlength="400" required></textarea><br><br>
+            
+            <button type="submit">ENVIAR</button>
+            <button type="reset">LIMPAR</button>
+        </form>
+    </main>
+    
+    <hr>
+    
+    <footer>
+        &copy;2023 Cristian Negrini Barreto, Inc. <br>
+        <a href="https://github.com/NgrCristian?tab=repositories" target="_blank">GitHub</a>
+        <a href="https://www.linkedin.com/in/cristian-negrini-87999026b/" target="_blank">Linkedin</a>
+        <a href="https://www.instagram.com/soulcodeacademy/" target="_blank">Instagram</a>
+        <a href="contato.html" target="_blank">Contato</a>
+    </footer>
+</body>
+</html>
